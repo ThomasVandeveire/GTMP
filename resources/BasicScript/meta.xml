@@ -1,0 +1,9 @@
+﻿<meta>
+  <info author="Reynout" type="script" name ="BasicScript"/>
+  <script src="BasicCommand.cs" type="server" lang="csharp"/>
+  <script src="ChangeNameCommand.cs" type="server" lang="csharp"/>
+  
+  
+  
+  
+</meta>

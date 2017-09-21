@@ -1,0 +1,11 @@
+﻿<meta>
+  <info author="Thomas" type="script" name="BasicMessages" />
+
+  <script src="LeaveMessage.cs" type ="server" lang="csharp"/>
+  
+  
+  
+  
+  
+  
+</meta>
