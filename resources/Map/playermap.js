@@ -1,17 +1,14 @@
-﻿
-
-API.onResourceStart.connect(function () {
-    var Blips = API.getAllBlips;
-    
-    var player = API.getLocalPlayer;
-    API.sendNotification(player.name);
-
-    for (var b in Blips)
+﻿API.onUpdate.connect(function () {
+    var players = API.getStreamedPlayers();
+    API.sendNotification("Length: " + players.Length);
+    for (var i = 0; i < players.Length + 1; i++)
     {
-        var blipName = API.getBlipName(b)
-        if (blipname == player.name);
-        API.deleteEntity(b);
+        API.sendNotification("Player: " + players[i]);
+        //var location = API.getEntityPosition(player);
+        //var blip = API.createBlip();
+        //API.setBlipName(blip, player.name);
 
     }
+    
 
 })
