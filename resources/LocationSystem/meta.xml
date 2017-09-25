@@ -1,0 +1,15 @@
+﻿<meta>
+  <info author="Thomas" type="script" name="BasicMessages" />
+  <script src="LocationSystem.cs" type ="server" lang="csharp"/>
+<assembly ref="System.Data.dll"/>
+<assembly ref="MySql.Data.dll"/>
+  <assembly ref="System.Xml.dll" />
+
+
+<include resource="database" />  
+  
+  
+  
+  
+  
+</meta>
