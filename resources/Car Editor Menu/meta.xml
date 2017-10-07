@@ -1,0 +1,10 @@
+﻿<meta>
+  <info author="Reynout" type="script" name="CustomCarMenu" />
+  <script src="Class1.cs" type ="server" lang="csharp"/>
+  <script src="MainMenu.ts" type="client" lang="javascript"/>
+  
+  
+  
+  
+  
+</meta>
